@@ -27,22 +27,10 @@ This project allows users to upload their resume, provide a job description, and
 
 ## 🛠 Installation
 
-### 1️⃣ Clone the Repository
+### Clone the Repository
 ```bash
 git clone https://github.com/yourusername/AI-Cover-Letter-Generator.git
 cd AI-Cover-Letter-Generator
-```
-
-### 2️⃣ Create a Virtual Environment (Optional, Recommended)
-```bash
-python -m venv venv
-source venv/bin/activate  # On macOS/Linux
-venv\Scripts\activate  # On Windows
-```
-
-### 3️⃣ Install Dependencies
-```bash
-pip install -r requirements.txt
 ```
 
 ---
@@ -56,10 +44,10 @@ Then, open **http://localhost:8501** in your browser.
 ---
 
 ## 🔑 API Key Setup
-This app requires an API key to process resumes and generate cover letters.  
-👉 **Get your API key [here](https://your-api-provider.com)**  
+This app requires an API key to process resumes and generate cover letters. I used Llama API as a API provider. Feel free to use whatever you like and change the code accordingly. 
+👉 **Get Llama API key [here](https://www.llama-api.com/)**  
 
-When running the app, **enter your API key** in the designated field.
+When running the app, **enter your API key** in the designated field. If you are using the code locally, you can add the key in the `constants.py` file and use it from default.
 
 ---
 
@@ -80,14 +68,14 @@ When running the app, **enter your API key** in the designated field.
 ---
 
 ## 📌 Notes
-- **Keep your API key private** (do not hardcode it in the scripts).  
+- **Keep your API key private** (do not hardcode it in the scripts unless you are using it locally).  
 - Ensure **your resume is well-structured** for better AI parsing.  
-- The AI-generated cover letter may need **minor adjustments**.
+- The AI-generated cover letter may need **minor adjustments** and it can be slow.
 
 ---
 
 ## 👨‍🚀 Author
-Made with ❤️ by **[Piero Paialunga](https://piero-paialunga.medium.com/)**  
+Made with ❤️ by Piero Paialunga. This is **[my portfolio](https://piero-paialunga.medium.com/)**  
 Feel free to reach out for questions or collaborations!
 
 ---
