@@ -1,0 +1,9 @@
+{
+  "model": "llama3.3-70b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "You are an expert in job hunting and a cover letter writer. Given a resume json file, the job description, and the date, write a cover letter for this candidate. Be persuasive and professional. Resume JSON: {resume_json} ; Job Description: {job_description}, Date: {date} "
+    }
+  ]
+}

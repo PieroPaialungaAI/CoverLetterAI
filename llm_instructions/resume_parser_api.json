@@ -1,0 +1,10 @@
+{
+    "model": "llama3.3-70b",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a resume parser. You will extract information from this resume and put them in a .json file. The keys of your dictionary will be first_name, last_name, location, work_experience, school_experience, skills. In selecting the information, keep track of the most insightful. "
+      }
+    ]
+  }
+  
