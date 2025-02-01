@@ -21,7 +21,7 @@ st.markdown(
 )
 
 # Add a Logo (Make sure "logo.png" is in the same directory)
-st.image("logo.png")
+st.image("app_images/logo.png")
 
 # Title and Description
 st.markdown("<h1 style='text-align: center;'>📄 AI Cover Letter Generator</h1>", unsafe_allow_html=True)
