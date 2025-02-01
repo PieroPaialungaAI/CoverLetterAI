@@ -1,0 +1,4 @@
+streamlit
+llamaapi
+python-docx
+pypdf2
